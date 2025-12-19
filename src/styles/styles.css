@@ -43,9 +43,9 @@ button {
   background: #d40000;
   background: linear-gradient(
     180deg,
-    rgba(212, 0, 0, 1) 25%,
-    rgba(0, 0, 0, 1) 50%,
-    rgba(255, 255, 255, 1) 75%
+    rgba(212, 0, 0, 0.8) 25%,
+    rgba(0, 0, 0, 0.8) 50%,
+    rgba(255, 255, 255, 0.8) 75%
   );
 }
 
@@ -78,7 +78,7 @@ button {
 
 #poke-list {
   margin-right: 0;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .card {

@@ -1,0 +1,270 @@
+:root {
+  --clr-black: #1c1c1c;
+  --clr-gray: #ececec;
+  --clr-white: #f7f7f7;
+
+  --type-normal: #a8a878;
+  --type-fire: #f08030;
+  --type-water: #6890f0;
+  --type-grass: #78c850;
+  --type-electric: #f8d030;
+  --type-ice: #98d8d8;
+  --type-fighting: #c03028;
+  --type-poison: #a040a0;
+  --type-ground: #e0c068;
+  --type-flying: #a890f0;
+  --type-psychic: #f85888;
+  --type-bug: #a8b820;
+  --type-rock: #b8a038;
+  --type-ghost: #705898;
+  --type-dark: #705848;
+  --type-dragon: #7038f8;
+  --type-steel: #b8b8d0;
+  --type-fairy: #f0b6bc;
+}
+
+section {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+}
+
+.menu {
+  background: #d40000;
+  background: linear-gradient(
+    180deg,
+    rgba(212, 0, 0, 1) 25%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(255, 255, 255, 1) 75%
+  );
+}
+
+.nav-list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.navbar {
+  text-transform: capitalize;
+}
+
+.logo-container {
+  margin-bottom: 60px;
+}
+
+.type-filter {
+  text-transform: capitalize;
+  border-radius: 100vmax;
+  padding: 0.25rem 0.5rem;
+  text-align: center;
+  width: fit-content;
+}
+
+.closed {
+  cursor: pointer;
+  user-select: none;
+}
+
+#poke-list {
+  margin-right: 0;
+  margin-left: 50px;
+}
+
+.card {
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  user-select: none;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.gray-border {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: darkgray;
+}
+
+.blue-light {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4bb0ff;
+  margin-top: 5px;
+  margin-left: 5px;
+  position: fixed;
+}
+
+.white-reflect {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: ghostwhite;
+  margin-top: 5px;
+  margin-left: 3px;
+}
+
+.red-light {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: firebrick;
+  margin-left: 10px;
+}
+
+.red-reflex {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: beige;
+  margin-top: 3px;
+  margin-left: 2px;
+}
+
+.yellow-light {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: gold;
+  margin-left: 10px;
+}
+
+.yellow-reflex {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: beige;
+  margin-top: 3px;
+  margin-left: 2px;
+}
+
+.green-light {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: green;
+  margin-left: 10px;
+}
+
+.green-reflex {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: beige;
+  margin-top: 3px;
+  margin-left: 2px;
+}
+
+.modal-body {
+  background-color: lightgrey;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.border-container {
+  display: flex;
+  position: fixed;
+  margin-top: -15px;
+}
+
+.first-red-dot {
+  width: 10px;
+  border-radius: 50%;
+  background-color: darkred;
+  margin-left: 210px;
+  margin-right: 5px;
+}
+
+.second-red-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: darkred;
+}
+
+.inside-border {
+  background-color: white;
+  border-radius: 10%;
+}
+
+.poke-info {
+  text-transform: capitalize;
+}
+
+.poke-type {
+  justify-content: center;
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: -8px;
+}
+
+.type {
+  border-radius: 100vmax;
+  padding: 0.25rem 0.5rem;
+}
+
+.poke-dimensions {
+  display: inline-flex;
+  gap: 1rem;
+  font-size: 0.85rem;
+}
+
+.lines-container {
+  margin-bottom: -10px;
+  margin-top: 5px;
+}
+
+.red-button {
+  cursor: pointer;
+  background-color: crimson;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-bottom: -30px;
+  margin-left: 80px;
+  transition: 0.3s ease-in-out;
+}
+
+.red-button:hover {
+  transform: scale(1.1);
+}
+
+.black-line {
+  background-color: #1c1c1c;
+  width: 100px;
+  height: 4px;
+  border-radius: 10px;
+  margin-top: 4px;
+}
+
+.spinner-container {
+  padding-top: 20%;
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
